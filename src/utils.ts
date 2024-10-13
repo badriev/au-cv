@@ -1,0 +1,1 @@
+export const NOT_IMPLEMENTED = () => alert('not implemented')

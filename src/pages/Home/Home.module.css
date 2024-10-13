@@ -1,0 +1,60 @@
+.personPhoto {
+  height: 509px;
+  width: 353px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.projectLeftBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 950px;
+}
+
+.projectDescriptionBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 649px;
+}
+
+.projectTitle {
+  margin: 0;
+  font-size: 92px;
+  font-weight: 600;
+  line-height: 101.2px;
+}
+
+.projectTags {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 21px;
+  line-height: 27.3px;
+  white-space: nowrap;
+}
+
+.projectDescription {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41.6px;
+}
+
+.projectAkBarsLogoImage {
+  height: 66px;
+  width: 236px;
+}
+
+.titleH2 {
+  margin-left: 64px;
+  margin-top: 100px;
+  font-size: 82px;
+  font-weight: 500;
+  line-height: 106.6px;
+}
+
+.projectPhoneImg {
+  /* height: 800px;
+  width: 800px; */
+}

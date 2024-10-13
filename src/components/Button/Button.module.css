@@ -1,0 +1,12 @@
+.baseButton {
+  background-color: #F4F4F4;
+  width: 170px;
+  height: 68px;
+  border-radius: 20px;
+  border-color: transparent;
+  font-family: Mulish;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px ;
+  cursor: pointer;
+} 

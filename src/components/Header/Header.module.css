@@ -1,0 +1,17 @@
+
+.headerContainer {
+  /* height: 103px; */
+  padding-inline: 24px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Mulish;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32.5px;
+}
+
+.headerEmojiImg {
+  width: 42px;
+  height: 45px;
+  align-self: center;;
+}
