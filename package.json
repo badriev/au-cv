@@ -2,7 +2,7 @@
   "name": "au-cv",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://badriev.github.io/au-cv",
+  "homepage": "https://badriev.github.io/au-cv/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
