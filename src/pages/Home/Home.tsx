@@ -12,6 +12,9 @@ const Home = () => {
   return (
     <>
       <Header />
+      <h1>{import.meta.env.PROD}</h1>
+      <h1>{import.meta.env.DEV}</h1>
+      <h1>{import.meta.env.BASE_URL}</h1>
       <Section style={{ paddingTop: "30px", paddingBottom: "30px" }}>
         <FlexboxRow style={{ gap: "100px" }}>
           <img
