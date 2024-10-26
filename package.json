@@ -8,7 +8,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite --port 3000 --mode DEV",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --mode PROD",
     "lint": "eslint .",
     "preview": "vite preview"
   },
