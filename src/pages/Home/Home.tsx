@@ -7,18 +7,22 @@ import { NOT_IMPLEMENTED } from "@/utils";
 import ProjectInfo from "./components/ProjectInfo/ProjectInfo";
 import TypoAbout from "./components/TypoAbout/TypoAbout";
 import classes from "./Home.module.css";
+import AkBarsLogo from "/AkBarsLogo.png"
+import AkBarsPhone from "/AkBarsPhone.png"
+import PersonPhoto from "/PersonPhoto.png"
+import DenetPhone from "/DenetPhone.png"
+import DenetLogo from "/DenetLogo.png"
+import Web3Logo from "/Web3Logo.png"
+import Web3Phone from "/Web3Phone.png"
 
 const Home = () => {
   return (
     <>
       <Header />
-      <h1>{import.meta.env.PROD}</h1>
-      <h1>{import.meta.env.DEV}</h1>
-      <h1>{import.meta.env.BASE_URL}</h1>
       <Section style={{ paddingTop: "30px", paddingBottom: "30px" }}>
         <FlexboxRow style={{ gap: "100px" }}>
           <img
-            src="/PersonPhoto.png"
+            src={PersonPhoto}
             alt="img"
             className={classes.personPhoto}
           />
@@ -67,7 +71,7 @@ const Home = () => {
         >
           <div className={classes.projectLeftBlock}>
             <img
-              src="/AkBarsLogo.png"
+              src={AkBarsLogo}
               alt="img"
               className={classes.projectAkBarsLogoImage}
             />
@@ -97,7 +101,7 @@ const Home = () => {
           }}
         >
           <img
-            src="/AkBarsPhone.png"
+            src={AkBarsPhone}
             alt="img"
             className={classes.projectPhoneImg}
           />
@@ -116,7 +120,7 @@ const Home = () => {
           }}
         >
           <img
-            src="/DenetPhone.png"
+            src={DenetPhone}
             alt="img"
             className={classes.projectPhoneImg}
           />
@@ -132,7 +136,7 @@ const Home = () => {
           <div className={classes.projectLeftBlock}>
             <FlexboxRow>
               <img
-                src="/DenetLogo.png"
+                src={DenetLogo}
                 alt="img"
                 className={classes.denetLogoImage}
               />
@@ -165,7 +169,7 @@ const Home = () => {
         >
           <div className={classes.projectLeftBlock}>
             <img
-              src="/Web3Logo.png"
+              src={Web3Logo}
               alt="img"
               className={classes.projectAkBarsLogoImage}
             />
@@ -189,7 +193,7 @@ const Home = () => {
           }}
         >
           <img
-            src="/Web3Phone.png"
+            src={Web3Phone}
             alt="img"
             className={classes.web3PhoneImg}
           />
