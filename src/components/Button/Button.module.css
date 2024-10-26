@@ -1,6 +1,8 @@
 .baseButton {
+  padding: 18px 36px 18px 36px;
   background-color: #F4F4F4;
-  width: 170px;
+  min-width: 170px;
+  width: fit-content;
   height: 68px;
   border-radius: 20px;
   border-color: transparent;

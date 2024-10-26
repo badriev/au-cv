@@ -1,0 +1,29 @@
+
+.projectDescriptionBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 649px;
+}
+
+.projectTitle {
+  margin: 0;
+  font-size: 92px;
+  font-weight: 600;
+  line-height: 101.2px;
+}
+
+.projectTags {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 21px;
+  line-height: 27.3px;
+  white-space: nowrap;
+}
+
+.projectDescription {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41.6px;
+}

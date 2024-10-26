@@ -9,41 +9,29 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 950px;
+  /* width: 950px; */
+  height: 100%;
+  padding-top: "30px";
+  margin-right: 0;
+  flex: 1 1 0px;
+  width: 0;
 }
 
-.projectDescriptionBlock {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  width: 649px;
-}
-
-.projectTitle {
-  margin: 0;
-  font-size: 92px;
-  font-weight: 600;
-  line-height: 101.2px;
-}
-
-.projectTags {
-  font-weight: 500;
-  font-style: italic;
-  font-size: 21px;
-  line-height: 27.3px;
-  white-space: nowrap;
-}
-
-.projectDescription {
-  margin: 0;
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 41.6px;
+.projectRightBlock {
+  background-color: rgb(0, 156, 50);
+  margin-left: 0px;
+  flex: 1 1 0px;
+  width: 0;
 }
 
 .projectAkBarsLogoImage {
   height: 66px;
   width: 236px;
+}
+
+.denetLogoImage {
+  height: 55px;
+  width: 347px;
 }
 
 .titleH2 {
@@ -55,6 +43,11 @@
 }
 
 .projectPhoneImg {
-  /* height: 800px;
-  width: 800px; */
+  height: 800px;
+}
+
+.web3PhoneImg {
+  height: 812px;
+  background: linear-gradient(180deg, rgba(18, 19, 19, 0) 84.65%, rgba(18, 19, 19, 0.48) 100%);
+
 }
